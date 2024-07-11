@@ -50,10 +50,10 @@ if(vowel[i]==str[j])
 count[i]+=1;
 }
 }
-printf("\n %d ",count[i]);
+//printf("\n %d ",count[i]);
 count[5]+=count[i];
 }
-printf(" %d ", count[5]);
+//printf(" %d ", count[5]);
 write(clientsocket,count,sizeof(count));
 close(serversocket);
 close(clientsocket);
